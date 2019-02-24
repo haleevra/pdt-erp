@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="df8f0182-8f5f-4dbc-8052-84cc13250726">
+  <producedTypes>
+    <objectType typeId="41a5b1b6-4946-42a3-a6e1-0229ca2427d6" valueTypeId="187d01df-8246-4e46-ac32-3306f14d8786"/>
+    <refType typeId="d3fd497d-34a3-4053-9732-45aa5bd12d48" valueTypeId="abbe14be-5439-4d45-b456-edd59d60c86c"/>
+    <selectionType typeId="67e74ead-2952-46f6-8a96-2b87416cb8df" valueTypeId="cc14fcd4-e65b-4f37-a037-eae8b09a7bc2"/>
+    <listType typeId="dcc78b05-0f1b-41b1-a1ae-2b9bfefd38db" valueTypeId="821f7a7d-5b20-4c3b-beae-42a330c21a1d"/>
+    <managerType typeId="ac5114d8-e35b-4dbf-ad9f-1da79571d01b" valueTypeId="d0ad0919-26ad-42f8-8846-449d267aa13f"/>
+  </producedTypes>
+  <name>УпаковочныйЛист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="969ad366-d196-4539-892c-3cdc14d5ce3a">
+    <name>Код</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

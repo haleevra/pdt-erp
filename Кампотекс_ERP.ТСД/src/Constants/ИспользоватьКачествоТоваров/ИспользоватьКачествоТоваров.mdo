@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b9c07ee4-3253-461b-a056-bf7a9957bbea">
+  <producedTypes>
+    <managerType typeId="e62e0e08-f46e-403b-a52b-e091ac322988" valueTypeId="9d75c753-4a17-4100-b10c-a7df8e1b391c"/>
+    <valueManagerType typeId="9c940b85-2ba9-4a5a-8c5e-d0d4c87d6b9c" valueTypeId="5a79a4a0-a77d-43d0-b53d-8c3d97320c4a"/>
+  </producedTypes>
+  <name>ИспользоватьКачествоТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

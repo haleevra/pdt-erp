@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="605aa0f3-b0e0-4b2e-a657-b18211baa2ef">
+  <producedTypes>
+    <refType typeId="864c8147-9b4e-4ffb-a777-0cb516477a87" valueTypeId="694f8248-b8d0-48a7-bb01-76b9e22835ae"/>
+    <listType typeId="3bb60fbb-4d4f-438f-a2d2-55c96640793f" valueTypeId="bce67446-3ef9-4fea-b178-012bccfd5505"/>
+    <managerType typeId="be909cf2-3cb3-4997-b55d-00e9b076d1b4" valueTypeId="ec379b26-0e2e-45ca-814f-ec28261a9937"/>
+  </producedTypes>
+  <name>СтатусыРасходныхОрдеров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="28c6b41b-fe64-4314-9d28-2002f02621a0">
+  <producedTypes>
+    <objectType typeId="29331059-e0c0-4644-9d41-33922f3afd62" valueTypeId="a21ec148-2562-4e10-a23c-e9f3c9c27c51"/>
+    <refType typeId="e791999d-a027-4c3f-93b9-cdb11cf8efc3" valueTypeId="33606256-831f-4d15-8793-8e542470f016"/>
+    <selectionType typeId="c065cc7e-6290-444c-b259-b2e74c2ea09c" valueTypeId="2486d1b3-5ff3-4d7b-9087-0c2124bca279"/>
+    <listType typeId="6418162f-cae6-44fb-b98d-c508092834fb" valueTypeId="60cd5c29-f125-4e9e-9b14-3ca556a8237f"/>
+    <managerType typeId="4879f760-a0db-4488-aef1-3868e355a21f" valueTypeId="88744eea-8e6a-4110-ad2a-90636e8474dd"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a52a3026-39ac-4c19-adf1-9c021c2fa91f">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

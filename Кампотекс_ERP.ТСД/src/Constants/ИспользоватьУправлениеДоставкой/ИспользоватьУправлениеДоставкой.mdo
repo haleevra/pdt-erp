@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="063ce26d-6ae3-48a8-ac51-5ef8d4adb737">
+  <producedTypes>
+    <managerType typeId="0537af8b-1f9e-41cc-a798-0a6081cc65b4" valueTypeId="7e4eb0b1-6321-4cc6-8f76-42dc4a227baa"/>
+    <valueManagerType typeId="98c9d994-e198-46dd-a0b5-c53aadec5f73" valueTypeId="de7afa4a-8239-40b1-be69-d60c552c78e8"/>
+  </producedTypes>
+  <name>ИспользоватьУправлениеДоставкой</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

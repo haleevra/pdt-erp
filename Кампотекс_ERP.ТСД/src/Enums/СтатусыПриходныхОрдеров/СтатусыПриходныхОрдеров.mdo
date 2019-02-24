@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="98bb4637-8fe5-4192-aac9-c3d20ba4eb23">
+  <producedTypes>
+    <refType typeId="b4f2f8ab-a3f7-45a8-81a5-72d6cc6f028a" valueTypeId="5508d7b7-f5d4-4d2c-9ffd-a5bb9ec2ddd7"/>
+    <listType typeId="521e8511-c62d-4cab-8bec-5da962bb5eef" valueTypeId="f7770974-3c8e-4267-b9aa-6a95308d0fd6"/>
+    <managerType typeId="d57e89a7-3c33-4b9f-907f-4472b90f7a2d" valueTypeId="ec142cb7-d575-4935-9f1f-1177603f5df0"/>
+  </producedTypes>
+  <name>СтатусыПриходныхОрдеров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9bb69b75-aa66-48f2-8d57-2f3fb2f312db">
+    <name>КПоступлению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="50f5bd10-8fdb-4679-a287-979983b3b18e">
+    <name>ВРаботе</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c85ed4fa-5362-439f-8421-d355dda265ae">
+    <name>ТребуетсяОбработка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

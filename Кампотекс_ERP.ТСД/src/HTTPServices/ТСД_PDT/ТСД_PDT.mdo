@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48825c73-31fb-4ce7-a562-9ea41427496b">
+  <name>ТСД_PDT</name>
+  <synonym>
+    <key>ru</key>
+    <value>ТСД PDT</value>
+  </synonym>
+  <comment></comment>
+  <rootURL>pdt</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="48ca8722-a31d-46cc-b20f-34ecb9a18d1d">
+    <name>Документы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы</value>
+    </synonym>
+    <comment></comment>
+    <template>/documents/*</template>
+    <methods uuid="e8c1ea98-646e-453e-8125-fd6f29608cb2">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <comment></comment>
+      <handler>ДокументыПолучить</handler>
+    </methods>
+    <methods uuid="0f36d454-14dc-47b2-ba8c-992030d6e6e6">
+      <name>Отправить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отправить</value>
+      </synonym>
+      <comment></comment>
+      <httpMethod>POST</httpMethod>
+      <handler>ДокументыОтправить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="6177ce4d-9586-4ea2-b88d-d640c516c910">
+    <name>Справочники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочники</value>
+    </synonym>
+    <comment></comment>
+    <template>/references/*</template>
+    <methods uuid="c2848bc3-ef09-472c-b88d-0962927a7cd4">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <comment></comment>
+      <handler>СправочникиПолучить</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c810c0c2-854c-4ca8-8733-4c54f111f446">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <comment></comment>
+    <template>/test/*</template>
+    <methods uuid="d8100cdb-2865-4aeb-942b-60692d965c62">
+      <name>Получить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить</value>
+      </synonym>
+      <comment></comment>
+      <handler>ТестПолучить</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0b208342-d411-4a8f-bccb-1197d8f5c775">
+  <producedTypes>
+    <selectionType typeId="09574281-d3e4-4c8f-b177-e8cfd410b33e" valueTypeId="bba3a544-de9a-413c-9d67-0aa0a8c50a8f"/>
+    <listType typeId="2573dd1e-eefd-4a53-a62f-9d18dbad2a0e" valueTypeId="29c99023-e22c-424c-abb9-23e0975010ea"/>
+    <managerType typeId="7c847630-539c-498c-ba16-3f8c23266103" valueTypeId="a5f314c8-7c3e-472e-97bb-f5896f71d2a2"/>
+    <recordSetType typeId="1231575a-74e9-46e6-bef8-e6216bc67619" valueTypeId="fef2558a-928e-41fd-9898-18ac7f0cd77f"/>
+    <recordKeyType typeId="129cdb28-397b-4bbf-9fe3-39722381e079" valueTypeId="63560072-c6ed-4bcb-9c36-40d1f1f7a762"/>
+    <recordType typeId="9865d946-5391-4706-8981-c29f29c81123" valueTypeId="150d560d-2743-4223-823e-4e64db715eb4"/>
+    <recordManagerType typeId="dc09f57a-d7a8-4a40-8ccc-8596e2d19ad5" valueTypeId="87a688ee-73a9-4660-b19f-28a8e3f4578b"/>
+  </producedTypes>
+  <name>НастройкиАдресныхСкладов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8e5daa7a-75df-4f80-8868-f62a95a6daf1">
+    <name>ИспользоватьАдресноеХранение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+</mdclass:InformationRegister>

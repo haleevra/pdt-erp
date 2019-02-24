@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7383890d-3454-4de2-b411-2bd2b5af7e1b">
+  <producedTypes>
+    <managerType typeId="a1e194a7-2583-4e11-b66c-e700262cd03f" valueTypeId="7648d99f-a3c4-4ba1-8327-6f22989253c7"/>
+    <valueManagerType typeId="f5e681dd-1c35-4df6-be1b-3f9b1a726ef4" valueTypeId="4f6882c1-b891-44b4-a31a-97b35e99e622"/>
+  </producedTypes>
+  <name>ИспользоватьУпаковкиНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <type>Checked</type>
+  </extension>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
